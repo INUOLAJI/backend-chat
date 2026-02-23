@@ -71,4 +71,4 @@ out/
 .netlify/
 
 # Local config files
-*.local
+*.local"node_modules" 
