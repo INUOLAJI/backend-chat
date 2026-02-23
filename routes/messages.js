@@ -22,7 +22,7 @@ router.post("/", async(req, res)=>{
 
 router.get("/", async(req, res)=>{
     try{
-        const {data, error:msgError} = await db.from("six_message")
+        const {data, error} = await db.from("six_message")
         .select("*")
         .order("created_at", {ascending:true});
 

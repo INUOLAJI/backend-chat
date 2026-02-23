@@ -1,6 +1,11 @@
 const express = require("express")
 const router = express.Router();
 const db = require("../lib/db");
+// const API_URL = import.meta.env.VITE_API_URL;
+
+router.get("/api/users", (req, res) => {
+  res.json({ message: "Hello from backend" });
+});
 
 
 
