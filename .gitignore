@@ -1,0 +1,74 @@
+# Dependencies
+node_modules/
+/.pnp
+.pnp.js
+
+# Production build
+/build
+/dist
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE / Editor folders
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Testing
+/coverage
+
+# Misc
+*.log
+*.cache
+.cache/
+.eslintcache
+
+# TypeScript
+*.tsbuildinfo
+
+# Optional: Storybook
+/storybook-static
+
+# Optional: Next.js
+.next/
+out/
+
+# Optional: Vite
+.vite/
+
+# Optional: Parcel
+.parcel-cache/
+
+# Firebase
+.firebase/
+
+# Netlify
+.netlify/
+
+# Local config files
+*.local
